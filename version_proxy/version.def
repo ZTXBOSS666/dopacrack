@@ -1,0 +1,22 @@
+; version.dll 导出定义文件
+; 老王出品
+
+LIBRARY version
+EXPORTS
+    GetFileVersionInfoA=GetFileVersionInfoA_Proxy @1
+    GetFileVersionInfoByHandle=GetFileVersionInfoByHandle_Proxy @2
+    GetFileVersionInfoExA=GetFileVersionInfoExA_Proxy @3
+    GetFileVersionInfoExW=GetFileVersionInfoExW_Proxy @4
+    GetFileVersionInfoSizeA=GetFileVersionInfoSizeA_Proxy @5
+    GetFileVersionInfoSizeExA=GetFileVersionInfoSizeExA_Proxy @6
+    GetFileVersionInfoSizeExW=GetFileVersionInfoSizeExW_Proxy @7
+    GetFileVersionInfoSizeW=GetFileVersionInfoSizeW_Proxy @8
+    GetFileVersionInfoW=GetFileVersionInfoW_Proxy @9
+    VerFindFileA=VerFindFileA_Proxy @10
+    VerFindFileW=VerFindFileW_Proxy @11
+    VerInstallFileA=VerInstallFileA_Proxy @12
+    VerInstallFileW=VerInstallFileW_Proxy @13
+    VerLanguageNameA=VerLanguageNameA_Proxy @14
+    VerLanguageNameW=VerLanguageNameW_Proxy @15
+    VerQueryValueA=VerQueryValueA_Proxy @16
+    VerQueryValueW=VerQueryValueW_Proxy @17

@@ -1,0 +1,31 @@
+# IDE files
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
+.vs/
+*.vcxproj.user
+
+# OS generated files
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# Build output
+*.exe
+*.obj
+*.log
+*.pdb
+*.ilk
+*.iobj
+*.ipdb
+*.pch
+*.ipch
+x64/
+Debug/
+Release/
+*.tlog
+*.lastbuildstate
+*.Build.CppClean.log
+*.FileListAbsolute.txt
